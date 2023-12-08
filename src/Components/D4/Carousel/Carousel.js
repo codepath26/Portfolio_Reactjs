@@ -7,76 +7,76 @@ function Carousel() {
   const slides = [
     {
       url: "https://youtu.be/017qKvwM8yM",
-      img: "/D4poster/2.jpg",
+      img: "https://cdn.pixabay.com/photo/2023/12/08/08/28/08-28-20-251_1280.jpg",
     },
     {
       url: "https://youtu.be/jZZusG9SW54",
-      img: "/D4poster/1.jpg",
+      img: "https://cdn.pixabay.com/photo/2023/12/08/08/10/08-10-34-50_1280.jpg",
     },
     {
       url: "https://youtu.be/HAQRplnEKec",
-      img: "/D4Poster/7.jpg",
+      img: "https://cdn.pixabay.com/photo/2023/12/08/08/32/08-32-53-447_1280.jpg",
     },
     {
       url: "https://youtu.be/9oOUSsje6s8",
-      img: "/D4Poster/12.jpg",
+      img: "https://cdn.pixabay.com/photo/2023/12/08/08/28/08-28-48-862_1280.jpg",
     },
     {
       url: "https://youtu.be/S1maHWq5Y0Q",
-      img: "/D4Poster/16.jpg",
+      img: "https://cdn.pixabay.com/photo/2023/12/08/09/07/09-07-18-627_1280.jpg",
     },
     {
       url: "https://youtu.be/XVw247CHffw",
-      img: "/D4Poster/14.jpg",
+      img: "https://cdn.pixabay.com/photo/2023/12/08/08/29/08-29-03-352_1280.jpg",
     },
     {
       url: "https://youtu.be/xnkp7TtNMF0",
-      img: "/D4Poster/10.jpg",
+      img: "https://cdn.pixabay.com/photo/2023/12/08/09/10/09-10-34-991_1280.jpg",
     },
     {
       url: "https://youtu.be/a-oEoUVyC3s",
-      img: "/D4Poster/15.jpg",
+      img: "https://cdn.pixabay.com/photo/2023/12/08/09/08/09-08-39-151_1280.jpg",
     },
     {
       url: "https://youtu.be/Iip7hH1YJ_s",
-      img: "/D4Poster/3.jpg",
+      img: "https://cdn.pixabay.com/photo/2023/12/08/08/28/crazy-8437105_1280.jpg",
     },
     {
-      img: "/D4poster/4.jpg",
+      img: "https://cdn.pixabay.com/photo/2023/12/08/09/00/09-00-51-452_1280.jpg",
       url: "https://youtu.be/8lCudq5YbeM",
     },
 
     {
       url: "https://youtu.be/mKk6Q7ov3fE",
-      img: "/D4Poster/5.jpg",
+      img: "https://cdn.pixabay.com/photo/2023/12/08/08/59/08-59-57-351_1280.jpg",
     },
 
     {
       url: "https://youtu.be/R2wIMTO2JRI",
-      img: "/D4Poster/6.jpg",
+      img: "https://cdn.pixabay.com/photo/2023/12/08/08/59/08-59-54-904_1280.jpg",
     },
 
     {
       url: "https://youtu.be/9rgExFyxYyM",
-      img: "/D4Poster/8.jpg",
+      img: "https://cdn.pixabay.com/photo/2023/12/08/08/59/08-59-56-104_1280.jpg",
     },
     {
       url: "https://youtu.be/S2CxnBpUJNE",
-      img: "/D4Poster/9.jpg",
+      img: "https://cdn.pixabay.com/photo/2023/12/08/08/59/08-59-57-63_1280.jpg",
     },
     {
       url: "https://youtu.be/6rqTJxO1HJE",
-      img: "/D4Poster/13.jpg",
+      img: "https://cdn.pixabay.com/photo/2023/12/08/08/32/08-32-58-710_1280.jpg",
     },
 
  
     {
       url: "https://youtu.be/FJViqnKz3eA",
-      img: "/D4Poster/17.jpg",
+      img: "https://cdn.pixabay.com/photo/2023/12/08/09/10/09-10-43-22_1280.jpg",
     },
     {
       url: "https://youtu.be/XjaEyBYVrPQ",
-      img: "/D4Poster/18.jpg",
+      img: "https://cdn.pixabay.com/photo/2023/12/08/09/10/09-10-42-518_1280.jpg",
     },
   ];
 
