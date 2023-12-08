@@ -1,0 +1,27 @@
+.list-item::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  background-color: #3730a3; /* Change this to your desired line color */
+  opacity: 0;
+  transition: all 0.3s ease; /* Adjust the duration and timing function as needed */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.list-item:hover::after {
+  width: 100%;
+  opacity: 1;
+}
+.list-item{
+  transition: all ease 0.3s;
+}
+.list-item:hover{
+  /* transform: translateY(-1px); */
+  transform: translateX(2px);
+}
+
+
+
+
