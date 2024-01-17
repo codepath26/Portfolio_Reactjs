@@ -23,7 +23,7 @@ const Header = () => {
   };
   return (
     <header
-      className={`dark:bg-gray-800  bg-white p-4 fixed top-0 left-0 w-screen text-black flex justify-between   ${
+      className={`dark:bg-gray-800  bg-white p-4 fixed top-0 left-0 w-screen text-black flex justify-between  ${
         isNavOpen ? "flex-col" : "flex-wrap"
       } `}
     >
