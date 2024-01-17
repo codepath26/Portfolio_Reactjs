@@ -1,13 +1,15 @@
-import React from 'react'
+import StaredRepo from "./StaredRepo";
+import OtherRepo from "./OtherRepo";
+import UserDetails from "./UserDetails";
 
 function Githube() {
   return (
-    <div className='w-screen h-screen flex justify-center items-center'>
-      <h1 className='text-2xl font-thin dark:text-white'>
-     React Working Comming Soon GithubApi....
-      </h1>
-      </div>
-  )
+    <>
+      <UserDetails/>
+      <StaredRepo />
+      <OtherRepo />
+    </>
+  );
 }
 
-export default Githube
+export default Githube;
