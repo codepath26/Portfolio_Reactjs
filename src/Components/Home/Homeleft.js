@@ -20,6 +20,15 @@ function Homeleft() {
             websites that make a lasting impact, leaving a digital footprint
             that tells a compelling story.
           </p>
+          <div className="mt-10 ">
+          <a
+            className="px-4   py-2 bg-indigo-700 border rounded text-white "
+            href={process.env.PUBLIC_URL + "/resume/Parth_Thakor.pdf"}
+            download='Parth_Thakor.pdf'
+          >
+            Download CV
+          </a>
+        </div>
         </div>
         <div></div>
       </div>
