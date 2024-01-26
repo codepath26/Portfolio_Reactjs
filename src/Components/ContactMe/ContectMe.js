@@ -57,13 +57,13 @@ function ContectMe() {
           </Link>
         </div>
         <div className="mt-10 ">
-          <Link
+          <a
             className="px-4   py-2 bg-indigo-700 border rounded text-white "
-            to="./images/ParthThakorResume.pdf"
-            download
+            href={process.env.PUBLIC_URL + "/resume/Parth_Thakor.pdf"}
+            download='Parth_Thakor.pdf'
           >
             Download CV
-          </Link>
+          </a>
         </div>
       </div>
       <div class="w-1/2">
