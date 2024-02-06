@@ -7,7 +7,7 @@ function Githube() {
     <>
       <UserDetails/>
       <StaredRepo />
-      {/* <OtherRepo /> */}
+      <OtherRepo />
     </>
   );
 }
