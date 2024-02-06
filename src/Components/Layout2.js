@@ -1,21 +1,12 @@
-
-import Header2 from "./D4/Header2/Header";
-
-
-
+import Header from "./Header/Header";
 
 const Layout2 = ({ children }) => {
   return (
     <>
-    <div>
-      <Header2 />
-      <main className="dark:bg-gray-800">
-        {
-          children
-        }
-      </main>
-    </div>
-
+      <div>
+        <Header />
+        <main className="dark:bg-gray-800">{children}</main>
+      </div>
     </>
   );
 };

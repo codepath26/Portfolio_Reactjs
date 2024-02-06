@@ -4,7 +4,7 @@ import HomeRight from "./HomeRight";
 
 function Home() {
   return (
-    <div id='home' className="h-screen dark:bg-gray-800 flex flex-wrap  md:flex-row flex-col"  >
+    <div id='home' className="w-full md:h-screen md:border-b md:border-opacity-40 dark:bg-gray-800 flex flex-wrap  md:flex-row flex-col-reverse"  >
       <Homeleft />
       <HomeRight />
     </div>

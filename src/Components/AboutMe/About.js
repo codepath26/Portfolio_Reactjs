@@ -8,7 +8,7 @@ function About() {
 
   return (
     <div id="about" className="">
-    <div  className="h-screen dark:bg-gray-800 shadow dark:text-white pt-20  flex ">
+    <div  className=" dark:bg-gray-800 shadow dark:text-white pt-10  flex md:flex-row flex-col ">
       <AboutMeLeft/>
       <AboutMeRight/>
     </div>

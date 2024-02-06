@@ -2,11 +2,11 @@ import React from "react";
 
 function ShowExperience() {
   return (
-    <div className="p-8 flex pl-20" id="showExperience">
+    <div className="sm:p-8 flex px-5 md:pl-5 lg:pl-20 sm:pl-20" id="showExperience">
       <ul>
-        <li className="my-2">
+        <li className="my-2 text-gray-500 dark:text-gray-400">
           <span>
-            <strong>Game Development Experience</strong>
+            <strong className="text-black dark:text-white" >Game Development Experience</strong>
           </span>
           <br />
           <span className="dscTitle">Game Title:</span> RunFree
@@ -25,9 +25,9 @@ function ShowExperience() {
           </a>
           <br />
         </li>
-        <li className="my-2">
+        <li className="my-2 text-gray-500 dark:text-gray-400">
           <span>
-            <strong>Jun 2022 To Dec 2022</strong>
+            <strong className="text-black dark:text-white"  >Jun 2022 To Dec 2022</strong>
           </span>
           <br />
           <span className="dscTitle">Company:</span> Harsha Engineers
@@ -35,9 +35,9 @@ function ShowExperience() {
           <span className="dscTitle">Role:</span> GET
           <br />
         </li>
-        <li className="my-2">
+        <li className="my-2 text-gray-500 dark:text-gray-400">
           <span>
-            <strong>May 2023 To Present</strong>
+            <strong className="text-black dark:text-white">May 2023 To Present</strong>
           </span>
           <br />
           <span className="dscTitle">Company:</span> Sharpener

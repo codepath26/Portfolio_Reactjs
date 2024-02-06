@@ -2,13 +2,15 @@ import About from "./AboutMe/About";
 import ContectMe from "./ContactMe/ContectMe";
 import Home from "./Home/Home";
 import MyWork from "./Portfolio/MyWork";
-import Footer from "./RootComponents/Footer";
-import Header from "./RootComponents/Header";
+import Footer from "./Footer/Footer";
+import Header from "./Header/Header";
 import Service from "./Services/Service";
+
 
 const Layout = ({ children }) => {
   return (
-    <div className="relative">
+    <>
+    <div className="w-full relative ">
       <Header />
       <main>
         <Home />
@@ -19,6 +21,7 @@ const Layout = ({ children }) => {
       </main>
       <Footer />
     </div>
+    </>
   );
 };
 

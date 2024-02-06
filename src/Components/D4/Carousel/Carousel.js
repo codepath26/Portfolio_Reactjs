@@ -100,10 +100,10 @@ function Carousel() {
   };
 
   return (
-    <div className="   max-w-[1100px] h-[780px] w-full  m-auto py-7 px-4 relative group">
+    <div className="border border-red-600 w-[50%] m-auto py-7 px-4 relative ">
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].img})` }}
-        className="dark:shadow-md dark:border dark:border-salte-500 dark:shadow-white  dark:transition-shadow   w-full h-[600px] rounded-2xl bg-center bg-cover duration-500 relative"
+        className="dark:shadow-md dark:border dark:border-salte-500 dark:shadow-white  dark:transition-shadow   w-full  rounded-2xl bg-center bg-cover duration-500 relative"
       >
         <Link
           className="text-xl font-bold bg-indigo-700 py-1 px-2 cursor-pointer rounded-lg text-white absolute bottom-10 left-1/2 transform -translate-x-1/2 border-none "
