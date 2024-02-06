@@ -16,8 +16,8 @@ export default function Darkmode() {
   return (
     <>
     <span className="mx-6">
-      <i className="fa-regular rotate-180 fa-lightbulb dark:hidden text-black text-2xl" onClick={toggleDarkMode}></i>
-      <i className="fa-solid fa-lightbulb text-yellow-400 hidden dark:block text-2xl rotate-180" onClick={toggleDarkMode}></i>
+      <i className="fa-regular rotate-180 fa-lightbulb dark:hidden  text-2xl" onClick={toggleDarkMode}></i>
+      <i className="fa-solid fa-lightbulb  text-yellow-400 hidden dark:block text-2xl rotate-180" onClick={toggleDarkMode}></i>
     </span>  
     </>
   );

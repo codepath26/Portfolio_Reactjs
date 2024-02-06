@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 function RightTop() {
   return (
     <>
-      <div className="">
+      <div className="font-light">
         <h1 className="text-center text-3xl p-2 my-3 ">
           <span className="border-b border-indigo-600 font-medium"> So, Who I AM?</span>
          
         </h1>
-        <p className="text-lg  ml-2 pt-8 ">
+        <p className="text-lg  p-3  border border-indigo-500 rounded-[10px]">
           I'm a passionate developer with a love for creating impactful websites
           that leave a lasting mark. <br /> My journey in web development has
           spanned both front-end and back-end expertise, which you can explore

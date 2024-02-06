@@ -4,44 +4,44 @@ function ShowSkills() {
   return (
     <>
       <div
-        className=" p-8 flex pl-20"
+        className="sm:p-8 flex px-5 md:pl-5 lg:pl-20 sm:pl-20 "
         id="showSkills"
       >
-        <ul>
+        <ul className="">
           <li className="my-2">
             <span>
               <strong>Front-End Development</strong>
             </span>
             <br />
-            HTML, CSS, JavaScript, TypeScript, Bootstrap, React
+            <span className=" text-gray-500 dark:text-gray-400">HTML, CSS, JavaScript, TypeScript, Bootstrap, React</span>
           </li>
           <li className="my-2">
             <span>
               <strong>Back-End Development</strong>
             </span>
             <br />
-            Node.js, Express.js, SQL, MySQL, Sequelize, MongoDB, Mongoose
+            <span className="text-gray-500 dark:text-gray-400"> Node.js, Express.js, SQL, MySQL, Sequelize, MongoDB, Mongoose</span>
           </li>
           <li className="my-2">
             <span>
               <strong>Version Control</strong>
             </span>
             <br />
-            Git, GitHub
+            <span className="text-gray-500 dark:text-gray-400"> Git, GitHub</span>
           </li>
           <li className="my-2">
             <span>
               <strong>Video Editing & Content Creation</strong>
             </span>
             <br />
-            Adobe Premiere Pro
+            <span className="text-gray-500 dark:text-gray-400">Adobe Premiere Pro</span>
           </li>
           <li className="my-2">
             <span>
               <strong>Game Development</strong>
             </span>
             <br />
-            Unity Engine
+            <span className="text-gray-500 dark:text-gray-400">Unity Engine</span> 
           </li>
         </ul>
       </div>

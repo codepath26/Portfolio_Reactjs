@@ -18,12 +18,13 @@ function StaredRepo() {
   return ( 
     <>
       <div>
-        <div className="flex flex-wrap">
+        <div className="">
           <h1 className="text-center w-full font-bold text-[30px] py-2 text-[#4338ca]  dark:text-white">Stared Repositories</h1>
+          <div className='flex flex-wrap w-full'>
           {staredRepo.map((repo, index) => {
             return (
               <ul
-                className="  dark:text-white  w-1/3 p-2"
+                className="  dark:text-white w-full  sm:w-1/2 md:w-1/3  p-2"
                 key={repo.id}
               >
                 <h1 className="text-bold mb-2 bg-green-400 text-[20px] dark:bg-green-900 text-center">
@@ -43,6 +44,7 @@ function StaredRepo() {
               </ul>
             );
           })}
+          </div>
         </div>
       </div>
     

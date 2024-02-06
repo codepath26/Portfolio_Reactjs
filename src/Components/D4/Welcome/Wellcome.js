@@ -9,8 +9,8 @@ function Wellcome() {
     'Channel Ko Subscribe Karke Jana Yaar.',
   ]
   return (
-    <div className="pt-10 flex justify-center items-end">
-      <div className="mt-8 text-xl dark:text-white text-black">
+    <div className="flex  p-4 justify-center items-center">
+      <div className="dark:text-white  text-black">
         <TypedComponent  greeting={WellcomeGreeting}/>
       </div>
     </div>

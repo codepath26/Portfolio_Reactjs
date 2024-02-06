@@ -25,9 +25,9 @@ function AboutMeLeft() {
   return (
     
     <>
-    <div className="md:w-1/2 w-full pt-10">
+    <div className="md:w-1/2 w-full pt-10 ">
 
-      <div className="text-2xl mb-5 font-semibold  flex gap-10 justify-center">
+      <div className="text-2xl mb-5 font-semibold  flex flex-wrap gap-5 md:gap-10 justify-center">
           <p onClick={onSkills} className="border-b border-black hover:bg-indigo-600 p-1 rounded hover:text-white">Skills</p>
           <p onClick={onEducation} className="border-b border-black hover:bg-indigo-600 p-1 rounded hover:text-white">Education</p>
           <p onClick={onExperience} className="border-b border-black hover:bg-indigo-600 px-2 py-1 hover:text-white rounded">Experience</p>

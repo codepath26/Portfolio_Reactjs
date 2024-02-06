@@ -2,10 +2,10 @@ import React from "react";
 
 function ShowEducation() {
   return (
-    <div className="p-8 flex  pl-20" id="showEducation">
+    <div className="sm:p-8 flex px-5 md:pl-5 lg:pl-20 sm:pl-20" id="showEducation">
       <ul>
-        <li className="my-2">
-        <strong> <span>College Name : </span>
+        <li className="my-2  text-gray-500 dark:text-gray-400">
+        <strong className="text-black dark:text-white" > <span>College Name : </span>
          L.D College of Engineering</strong>
           <br />
           <span>Degree : </span>Mechanical Engineer
@@ -16,8 +16,8 @@ function ShowEducation() {
           <strong> 8.09</strong>
           <br />
         </li>
-        <li className="my-2">
-          <span>School :</span> Sanskar Vidhyalaya Laxmipura, Palanpur-385001 <br />
+        <li className="my-2  text-gray-500 dark:text-gray-400">
+          <strong className="text-black dark:text-white"  ><span>School :</span> Sanskar Vidhyalaya Laxmipura</strong> <br />
           <span>HSC: </span>Science
           <br />
           <span>Passing Year:</span> 2018
@@ -25,8 +25,8 @@ function ShowEducation() {
           <span>Percentage :</span> 75.33%
           <br />
         </li>
-        <li className="my-2">
-          <span>School :</span> Sanskar Vidhyalaya Laxmipura <br />
+        <li className="my-2  text-gray-500 dark:text-gray-400 ">
+        <strong className="text-black dark:text-white"  ><span>School :</span> Sanskar Vidhyalaya Laxmipura</strong><br />
           <span>SSC :</span> 10<sup>th</sup> <br />
           <span>Passing Year:</span> 2016
           <br />
