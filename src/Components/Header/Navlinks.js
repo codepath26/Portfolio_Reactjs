@@ -4,7 +4,7 @@ import Darkmode from "../Darkmode/Darkmode";
 
 import { Link as RouterLink } from "react-router-dom";
 
-function Navlinks({isNavOpen}) {
+function Navlinks({isNavOpen ,home ,about , services,portfolio ,contact}) {
   console.log(isNavOpen)
   return (
     <>
@@ -29,7 +29,7 @@ function Navlinks({isNavOpen}) {
             smooth={true}
             offset={-100}
             duration={500}
-            to="home"
+            to={home}
           >
             Home
           </ScrollLink>
@@ -42,7 +42,7 @@ function Navlinks({isNavOpen}) {
             smooth={true}
             offset={0}
             duration={500}
-            to="about"
+            to={about}
           >
             About
           </ScrollLink>
@@ -55,7 +55,7 @@ function Navlinks({isNavOpen}) {
             smooth={true}
             offset={0}
             duration={500}
-            to="services"
+            to={services}
           >
             Services
           </ScrollLink>
@@ -68,7 +68,7 @@ function Navlinks({isNavOpen}) {
             smooth={true}
             offset={0}
             duration={500}
-            to="portfolio"
+            to={portfolio}
           >
             Mywork
           </ScrollLink>
@@ -81,7 +81,7 @@ function Navlinks({isNavOpen}) {
             smooth={true}
             offset={0}
             duration={500}
-            to="contact"
+            to={contact}
           >
             Contact Me
           </ScrollLink>
