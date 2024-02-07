@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
   return (
     <>
     <div className="w-full relative ">
-      <Header />
+      <Header home="home"  about="about" services="services" portfolio="portfolio" contact="contact" />
       <main>
         <Home />
         <About />
