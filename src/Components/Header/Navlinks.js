@@ -10,7 +10,7 @@ function Navlinks({isNavOpen ,home ,about , services,portfolio ,contact}) {
     <>
       <ul
         id="navbar"
-        className={`${isNavOpen ? "top-16 bg-gray-600 left-0 " : "top-[-490px] "} w-full md:w-auto md:flex-row transition-all md:z-auto z-[1] ease-in  duration-500 md:bg-white list-none md:flex-wrap text-center dark:bg-gray-800 absolute left-0 md:static  md:flex  justify-between`}
+        className={`${isNavOpen ? "bg-gray-600  translate-y-0 " : " translate-y-[-500px]  absolute  md:translate-y-0 "} w-full md:w-auto md:flex-row transition-translate md:z-auto ease-in  duration-500 md:bg-white list-none md:flex-wrap md:static  text-center dark:bg-gray-800    md:flex  justify-between  `}
       >
         <li className="list-item md:my-auto  md:border-b md:border-indigo-500 hover:border-none  relative  me-6 list-none  dark:text-white  text-white md:text-black  p-2 md:p-0 mb-4 md:mb-0  w-full md:w-auto  ">
           <RouterLink className="font-medium" to="/D4Experiments">

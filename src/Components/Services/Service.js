@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 function Service() {
   return (
     <>
-      <div id="services" className="pb-20  dark:bg-gray-800">
-        <div className=" p-4 md:p-0">
-          <div className="flex flex-wrap justify-around  mt-10">
+      <div id="services" className="pb-20   dark:bg-gray-800">
+        <div className=" p-4  md:p-0 ">
+          <div className="flex flex-wrap justify-around  py-10 ">
             <div className="mt-5 max-w-md bg-gray-900 p-5 text-sm font-medium border-r-8 border-indigo-500 hover:border-gray-900 rounded-r text-white  transition-all duration-300 ease-in hover:bg-indigo-500 hover:shwdow hover:-translate-y-1">
               <i className="text-2xl mb-5 fa-solid fa-code"></i>
               <h2 className="text-lg font-bold mb-3 text-indigo-500">Web Design</h2>
