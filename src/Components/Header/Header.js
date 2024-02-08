@@ -16,7 +16,7 @@
     }
 
     return (
-      <header className="w-full z-10 sticky top-0  bg-white  overflow-x-hidden shadow-md dark:bg-gray-800 dark:border-black "
+      <header className="w-full z-10 sticky top-0   bg-white  overflow-x-hidden shadow-md dark:bg-gray-800 dark:border-black "
       >
         <div className="flex justify-between w-full md:flex-col md:gap-3 md:items-center lg:flex-row flex-wrap mt-0 px-3  py-3">
         <span className="text-2xl  font-bold text-indigo-600 dark:text-indigo-400 ">
