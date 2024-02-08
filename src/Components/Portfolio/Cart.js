@@ -1,6 +1,7 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Link } from "react-router-dom";
-import LazyLoad from "react-lazyload";
+
 function Cart({
   title,
   imgsrc,
@@ -15,13 +16,13 @@ function Cart({
         <div className="text-center text-indigo-700 mb-2 text-lg font-bold">
           {title}
         </div>
-          <LazyLoad height={200} className="rounded-[10px] ">
-            <img
+          <div  className="rounded-[10px] ">
+            <LazyLoadImage
               className="w-full h-full object-cover rounded-[10px]"
               src={imgsrc}
               alt="work1"
             />
-          </LazyLoad>
+          </div>
         <div class="layer  mt-2">
           <p>{description}</p>
           <p className="mt-2">
